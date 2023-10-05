@@ -5,13 +5,15 @@ This is a tool to ask me "What are you doing?" and record the answer. Its purpos
 It is intended to be run at every half-hour mark by cron.
 
 ## Setup
-1. Make sure that `run.sh` is executable. Open this directory in terminal and run:
+1. Clone the repository and change directory to it.
+
+2. Make sure that `run.sh` is executable. Open this directory in terminal and run:
 
     ```sh
     chmod +x run.sh
     ```
 
-2. Test run `run.sh` by running:
+3. Test run `run.sh` by running:
 
     ```sh
     ./run.sh
@@ -19,7 +21,7 @@ It is intended to be run at every half-hour mark by cron.
 
     If you see a message "What are you doing?", then everything is fine. Choose any response that you want.
 
-3. See the results in `responses` folder. Each day has its own file.
+4. See the results in `responses` folder. Each day has its own file.
 
 ## Schedule
 1. Edit your cron table by running:
