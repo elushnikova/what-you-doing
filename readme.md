@@ -37,7 +37,7 @@ It is intended to be run at every half-hour mark by cron — e.g, at 8:00, 8:30,
 2. Add the following line to your crontab:
 
     ```sh
-    */30 * * * * /path/to/run.sh
+    */30 * * * * /path/to/what-you-doing/run.sh
     ```
 
     This will run `run.sh` at every half-hour mark. You can change the interval to whatever you want.
